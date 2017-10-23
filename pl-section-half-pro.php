@@ -7,7 +7,7 @@
 
   Author:      iHeart PageLines
 
-  Version:     3.0.1
+  Version:     3.0.3
 
   PageLines:   PL_Section_Half_Pro
 
@@ -94,7 +94,7 @@ class PL_Section_Half_Pro extends PL_Section {
         ),
       ),
       pl_std_opt( 'title', array('key' => 'left_title', 'label' => 'Title')),
-      pl_std_opt( 'text', array('key' => 'left_text', 'default' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit ultricies tempor. Maecenas vel maximus mauris, sed malesuada metus.
+      pl_std_opt( 'text', array('key' => 'left_text', 'type'=> 'html', 'default' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit ultricies tempor. Maecenas vel maximus mauris, sed malesuada metus.
        Maecenas a quam sit amet lorem mollis pharetra at a sapien. Etiam laoreet sapien at urna vulputate lacinia. Nullam lobortis ante quis nulla posuere pellentesque. Pellentesque habitant morbi ')),
       array(
         'key'				=> 'left_item',
@@ -136,7 +136,7 @@ class PL_Section_Half_Pro extends PL_Section {
           ),
         ),
         pl_std_opt( 'title', array('key' => 'right_title', 'label' => 'Title')),
-        pl_std_opt( 'text', array('key' => 'right_text', 'default' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit ultricies tempor. Maecenas vel maximus mauris, sed malesuada metus.
+        pl_std_opt( 'text', array('key' => 'right_text', 'type'=> 'html', 'default' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit ultricies tempor. Maecenas vel maximus mauris, sed malesuada metus.
          Maecenas a quam sit amet lorem mollis pharetra at a sapien. Etiam laoreet sapien at urna vulputate lacinia. Nullam lobortis ante quis nulla posuere pellentesque. Pellentesque habitant morbi ')),
         array(
           'key'				=> 'right_item',
