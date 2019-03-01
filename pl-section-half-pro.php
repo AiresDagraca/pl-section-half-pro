@@ -19,18 +19,6 @@
 
 */
 
-require 'plugin-update-checker/plugin-update-checker.php';
-$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-    'https://github.com/AiresDagraca/pl-section-half-pro',
-    __FILE__,
-    'pl-section-half-pro'
-);
-
-//Optional: If you're using a private repository, specify the access token like this:
-$myUpdateChecker->setAuthentication('58252f7d0cccac674bc33af8327485482988bd77');
-
-//Optional: Set the branch that contains the stable release.
-$myUpdateChecker->setBranch('master');
 
 
 /** A guard to prevent the section from being loaded if platform isn't installed or at the wrong time */
